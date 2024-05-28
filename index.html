@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="s-container">
+        <div id="c-image">
+            <picture>
+                <img src="assets/loginCelular.jpg" alt="imagem da mão de uma moça branca mexendo digitando em um notebook"/>
+            </picture>
+        </div>
+        <div class="c-form">
+            <h1>Login</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, sint? Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <form method="post" action="" autocomplete="on">
+                <div class="c-group_form">
+                    <label for="Myemail">
+                        <i class="ph ph-envelope"></i>
+                    </label>
+                    <input type="email" placeholder="email" autocomplete="email"/>
+                </div>
+                <div class="c-group_form">
+                    <label for="pass">
+                        <i class="ph ph-lock-key"></i>
+                    </label>
+                    <input type="password" minlength="8" maxlength="20" placeholder="Senha" required autocomplete="current-password" />
+                </div>
+                <div class="c-button">
+                    <button class="u-btn">Enviar</button>
+                    <button>Esqueceu a senha?</button>
+                </div>
+            </form>
+        </div>
+</html>
